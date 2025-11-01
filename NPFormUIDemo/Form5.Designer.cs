@@ -78,7 +78,7 @@ namespace ReaLTaiizor.UI
             this.radioButton1.CircleColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
             this.radioButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(125)))), ((int)(((byte)(132)))));
-            this.radioButton1.Location = new System.Drawing.Point(191, 127);
+            this.radioButton1.Location = new System.Drawing.Point(18, 90);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(95, 17);
             this.radioButton1.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
@@ -92,7 +92,7 @@ namespace ReaLTaiizor.UI
             this.radioButton2.CircleColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(76)))), ((int)(((byte)(85)))));
             this.radioButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.radioButton2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(125)))), ((int)(((byte)(132)))));
-            this.radioButton2.Location = new System.Drawing.Point(292, 127);
+            this.radioButton2.Location = new System.Drawing.Point(119, 90);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(95, 17);
             this.radioButton2.SmoothingType = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
@@ -102,7 +102,7 @@ namespace ReaLTaiizor.UI
             // toggleButton4
             // 
             this.toggleButton4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.toggleButton4.Location = new System.Drawing.Point(191, 220);
+            this.toggleButton4.Location = new System.Drawing.Point(160, 141);
             this.toggleButton4.Name = "toggleButton4";
             this.toggleButton4.Size = new System.Drawing.Size(76, 33);
             this.toggleButton4.TabIndex = 51;
@@ -113,7 +113,7 @@ namespace ReaLTaiizor.UI
             // toggleButton3
             // 
             this.toggleButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.toggleButton3.Location = new System.Drawing.Point(279, 220);
+            this.toggleButton3.Location = new System.Drawing.Point(78, 187);
             this.toggleButton3.Name = "toggleButton3";
             this.toggleButton3.Size = new System.Drawing.Size(76, 33);
             this.toggleButton3.TabIndex = 50;
@@ -124,7 +124,7 @@ namespace ReaLTaiizor.UI
             // toggleButton2
             // 
             this.toggleButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.toggleButton2.Location = new System.Drawing.Point(277, 175);
+            this.toggleButton2.Location = new System.Drawing.Point(160, 187);
             this.toggleButton2.Name = "toggleButton2";
             this.toggleButton2.Size = new System.Drawing.Size(76, 33);
             this.toggleButton2.TabIndex = 49;
@@ -136,7 +136,7 @@ namespace ReaLTaiizor.UI
             // 
             this.toggleButton1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(41)))), ((int)(((byte)(50)))));
             this.toggleButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.toggleButton1.Location = new System.Drawing.Point(195, 175);
+            this.toggleButton1.Location = new System.Drawing.Point(78, 138);
             this.toggleButton1.Name = "toggleButton1";
             this.toggleButton1.Size = new System.Drawing.Size(76, 33);
             this.toggleButton1.TabIndex = 48;
@@ -156,7 +156,7 @@ namespace ReaLTaiizor.UI
             this.checkBox1.Enable = true;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(125)))), ((int)(((byte)(132)))));
-            this.checkBox1.Location = new System.Drawing.Point(191, 89);
+            this.checkBox1.Location = new System.Drawing.Point(18, 52);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(89, 16);
             this.checkBox1.TabIndex = 47;
@@ -169,7 +169,7 @@ namespace ReaLTaiizor.UI
             this.materialButton1.DrawShadows = true;
             this.materialButton1.HighEmphasis = true;
             this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(464, 175);
+            this.materialButton1.Location = new System.Drawing.Point(590, 138);
             this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton1.MouseState = ReaLTaiizor.Helpers.MaterialDrawHelper.MaterialMouseState.HOVER;
             this.materialButton1.Name = "materialButton1";
@@ -205,7 +205,7 @@ namespace ReaLTaiizor.UI
             this.nightControlBox1.Size = new System.Drawing.Size(139, 31);
             this.nightControlBox1.TabIndex = 1;
             // 
-            // Simple
+            // Form5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -214,7 +214,7 @@ namespace ReaLTaiizor.UI
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1366, 709);
-            this.Name = "Simple";
+            this.Name = "Form5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Simple";
             this.TransparencyKey = System.Drawing.Color.Fuchsia;

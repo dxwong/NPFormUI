@@ -1,6 +1,6 @@
 ﻿namespace ReaLTaiizor_CR
 {
-    partial class Form6
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.materialTextBox1 = new ReaLTaiizor.Controls.MaterialTextBox();
             this.materialTextBox2 = new ReaLTaiizor.Controls.MaterialTextBox();
             this.materialButton1 = new ReaLTaiizor.Controls.MaterialButton();

@@ -5,13 +5,13 @@ using ReaLTaiizor.Colors;
 
 namespace ReaLTaiizor_CR
 {
-    public partial class Form6 : MaterialForm
+    public partial class Form1 : MaterialForm
     {
         private readonly MaterialManager MManager;
 
         private int colorSchemeIndex;
 
-        public Form6()
+        public Form1()
         {
             InitializeComponent();
 

@@ -62,20 +62,10 @@
             this.hopeSwitch1 = new ReaLTaiizor.Controls.HopeSwitch();
             this.hopeTrackBar1 = new ReaLTaiizor.Controls.HopeTrackBar();
             this.hopeRoundProgressBar1 = new ReaLTaiizor.Controls.HopeRoundProgressBar();
-            this.airTabPage1 = new ReaLTaiizor.Controls.AirTabPage();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.airButton2 = new ReaLTaiizor.Controls.AirButton();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.airButton3 = new ReaLTaiizor.Controls.AirButton();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.foreverTabPage1 = new ReaLTaiizor.Controls.ForeverTabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
             this.tabPage8 = new System.Windows.Forms.TabPage();
-            this.airCheckBox1 = new ReaLTaiizor.Controls.AirCheckBox();
             this.nButton3 = new ReaLTaiizor.NButton();
-            this.airTabPage1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
             this.foreverTabPage1.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage8.SuspendLayout();
@@ -558,7 +548,7 @@
             this.hopeCheckBox2.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
             this.hopeCheckBox2.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.hopeCheckBox2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.hopeCheckBox2.Location = new System.Drawing.Point(304, 312);
+            this.hopeCheckBox2.Location = new System.Drawing.Point(143, 88);
             this.hopeCheckBox2.Name = "hopeCheckBox2";
             this.hopeCheckBox2.Size = new System.Drawing.Size(146, 20);
             this.hopeCheckBox2.TabIndex = 33;
@@ -578,7 +568,7 @@
             this.hopeCheckBox1.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
             this.hopeCheckBox1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.hopeCheckBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(49)))), ((int)(((byte)(51)))));
-            this.hopeCheckBox1.Location = new System.Drawing.Point(304, 288);
+            this.hopeCheckBox1.Location = new System.Drawing.Point(143, 64);
             this.hopeCheckBox1.Name = "hopeCheckBox1";
             this.hopeCheckBox1.Size = new System.Drawing.Size(146, 20);
             this.hopeCheckBox1.TabIndex = 32;
@@ -596,7 +586,7 @@
             this.hopeRadioButton2.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
             this.hopeRadioButton2.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.hopeRadioButton2.ForeColor = System.Drawing.Color.SeaGreen;
-            this.hopeRadioButton2.Location = new System.Drawing.Point(304, 373);
+            this.hopeRadioButton2.Location = new System.Drawing.Point(143, 149);
             this.hopeRadioButton2.Name = "hopeRadioButton2";
             this.hopeRadioButton2.Size = new System.Drawing.Size(165, 20);
             this.hopeRadioButton2.TabIndex = 31;
@@ -615,7 +605,7 @@
             this.hopeRadioButton1.EnabledUncheckedColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(158)))), ((int)(((byte)(161)))));
             this.hopeRadioButton1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.hopeRadioButton1.ForeColor = System.Drawing.Color.SeaGreen;
-            this.hopeRadioButton1.Location = new System.Drawing.Point(304, 349);
+            this.hopeRadioButton1.Location = new System.Drawing.Point(143, 125);
             this.hopeRadioButton1.Name = "hopeRadioButton1";
             this.hopeRadioButton1.Size = new System.Drawing.Size(165, 20);
             this.hopeRadioButton1.TabIndex = 30;
@@ -636,7 +626,7 @@
             this.hopeToggle1.HeadColorB = System.Drawing.Color.White;
             this.hopeToggle1.HeadColorC = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
             this.hopeToggle1.HeadColorD = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
-            this.hopeToggle1.Location = new System.Drawing.Point(155, 373);
+            this.hopeToggle1.Location = new System.Drawing.Point(183, 157);
             this.hopeToggle1.Name = "hopeToggle1";
             this.hopeToggle1.Size = new System.Drawing.Size(48, 20);
             this.hopeToggle1.TabIndex = 29;
@@ -653,7 +643,7 @@
             this.hopeSwitch1.Checked = true;
             this.hopeSwitch1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.hopeSwitch1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.hopeSwitch1.Location = new System.Drawing.Point(163, 315);
+            this.hopeSwitch1.Location = new System.Drawing.Point(191, 99);
             this.hopeSwitch1.Name = "hopeSwitch1";
             this.hopeSwitch1.Size = new System.Drawing.Size(40, 20);
             this.hopeSwitch1.TabIndex = 28;
@@ -674,7 +664,7 @@
             this.hopeTrackBar1.ForeColor = System.Drawing.Color.Black;
             this.hopeTrackBar1.HeadBorderColor = System.Drawing.Color.DodgerBlue;
             this.hopeTrackBar1.HeadColor = System.Drawing.Color.Black;
-            this.hopeTrackBar1.Location = new System.Drawing.Point(17, 259);
+            this.hopeTrackBar1.Location = new System.Drawing.Point(45, 43);
             this.hopeTrackBar1.MaxValue = 10;
             this.hopeTrackBar1.MinValue = 0;
             this.hopeTrackBar1.Name = "hopeTrackBar1";
@@ -700,93 +690,13 @@
             this.hopeRoundProgressBar1.FullTextColorA = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(194)))), ((int)(((byte)(58)))));
             this.hopeRoundProgressBar1.FullTextColorB = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(194)))), ((int)(((byte)(58)))));
             this.hopeRoundProgressBar1.IsError = false;
-            this.hopeRoundProgressBar1.Location = new System.Drawing.Point(66, 315);
+            this.hopeRoundProgressBar1.Location = new System.Drawing.Point(94, 99);
             this.hopeRoundProgressBar1.Name = "hopeRoundProgressBar1";
             this.hopeRoundProgressBar1.PercentText = "%";
             this.hopeRoundProgressBar1.Size = new System.Drawing.Size(77, 77);
             this.hopeRoundProgressBar1.TabIndex = 26;
             this.hopeRoundProgressBar1.Text = "hopeRoundProgressBar1";
             this.hopeRoundProgressBar1.ValueNumber = 50;
-            // 
-            // airTabPage1
-            // 
-            this.airTabPage1.ActiveColor = System.Drawing.Color.PeachPuff;
-            this.airTabPage1.Alignment = System.Windows.Forms.TabAlignment.Left;
-            this.airTabPage1.BaseColor = System.Drawing.Color.Gainsboro;
-            this.airTabPage1.BgColor = System.Drawing.Color.White;
-            this.airTabPage1.Controls.Add(this.tabPage1);
-            this.airTabPage1.Controls.Add(this.tabPage2);
-            this.airTabPage1.Controls.Add(this.tabPage3);
-            this.airTabPage1.ItemSize = new System.Drawing.Size(30, 115);
-            this.airTabPage1.Location = new System.Drawing.Point(545, 19);
-            this.airTabPage1.Multiline = true;
-            this.airTabPage1.Name = "airTabPage1";
-            this.airTabPage1.SelectedIndex = 0;
-            this.airTabPage1.ShowOuterBorders = false;
-            this.airTabPage1.Size = new System.Drawing.Size(436, 198);
-            this.airTabPage1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
-            this.airTabPage1.SquareColor = System.Drawing.Color.Maroon;
-            this.airTabPage1.Squarewith = 6;
-            this.airTabPage1.TabIndex = 34;
-            // 
-            // tabPage1
-            // 
-            this.tabPage1.BackColor = System.Drawing.Color.White;
-            this.tabPage1.Controls.Add(this.airButton2);
-            this.tabPage1.Location = new System.Drawing.Point(119, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(313, 190);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "系统";
-            // 
-            // airButton2
-            // 
-            this.airButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.airButton2.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w==";
-            this.airButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.airButton2.Image = null;
-            this.airButton2.Location = new System.Drawing.Point(44, 74);
-            this.airButton2.Name = "airButton2";
-            this.airButton2.NoRounding = false;
-            this.airButton2.Size = new System.Drawing.Size(100, 32);
-            this.airButton2.TabIndex = 1;
-            this.airButton2.Text = "airButton2";
-            this.airButton2.Transparent = false;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.BackColor = System.Drawing.Color.White;
-            this.tabPage2.Controls.Add(this.airButton3);
-            this.tabPage2.Location = new System.Drawing.Point(119, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(428, 239);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "声音";
-            // 
-            // airButton3
-            // 
-            this.airButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.airButton3.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8UFBT/gICA/w==";
-            this.airButton3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.airButton3.Image = null;
-            this.airButton3.Location = new System.Drawing.Point(60, 133);
-            this.airButton3.Name = "airButton3";
-            this.airButton3.NoRounding = false;
-            this.airButton3.Size = new System.Drawing.Size(100, 45);
-            this.airButton3.TabIndex = 1;
-            this.airButton3.Text = "airButton3";
-            this.airButton3.Transparent = false;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.BackColor = System.Drawing.Color.White;
-            this.tabPage3.Location = new System.Drawing.Point(119, 4);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(428, 239);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "弹窗";
             // 
             // foreverTabPage1
             // 
@@ -799,10 +709,10 @@
             this.foreverTabPage1.DeactiveFontColor = System.Drawing.Color.White;
             this.foreverTabPage1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.foreverTabPage1.ItemSize = new System.Drawing.Size(120, 40);
-            this.foreverTabPage1.Location = new System.Drawing.Point(545, 239);
+            this.foreverTabPage1.Location = new System.Drawing.Point(23, 250);
             this.foreverTabPage1.Name = "foreverTabPage1";
             this.foreverTabPage1.SelectedIndex = 0;
-            this.foreverTabPage1.Size = new System.Drawing.Size(432, 231);
+            this.foreverTabPage1.Size = new System.Drawing.Size(519, 260);
             this.foreverTabPage1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.foreverTabPage1.TabIndex = 35;
             // 
@@ -810,45 +720,37 @@
             // 
             this.tabPage7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.tabPage7.Controls.Add(this.nButton3);
+            this.tabPage7.Controls.Add(this.hopeRoundProgressBar1);
+            this.tabPage7.Controls.Add(this.hopeTrackBar1);
+            this.tabPage7.Controls.Add(this.hopeSwitch1);
+            this.tabPage7.Controls.Add(this.hopeToggle1);
             this.tabPage7.Location = new System.Drawing.Point(4, 44);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(424, 183);
+            this.tabPage7.Size = new System.Drawing.Size(511, 212);
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "tabPage7";
             // 
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.tabPage8.Controls.Add(this.airCheckBox1);
+            this.tabPage8.Controls.Add(this.hopeRadioButton1);
+            this.tabPage8.Controls.Add(this.hopeRadioButton2);
+            this.tabPage8.Controls.Add(this.hopeCheckBox2);
+            this.tabPage8.Controls.Add(this.hopeCheckBox1);
             this.tabPage8.Location = new System.Drawing.Point(4, 44);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(424, 183);
+            this.tabPage8.Size = new System.Drawing.Size(511, 212);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "tabPage8";
-            // 
-            // airCheckBox1
-            // 
-            this.airCheckBox1.Checked = false;
-            this.airCheckBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.airCheckBox1.Customization = "7e3t//Ly8v/r6+v/5ubm/+vr6//f39//p6en/zw8PP8=";
-            this.airCheckBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.airCheckBox1.Image = null;
-            this.airCheckBox1.Location = new System.Drawing.Point(224, 89);
-            this.airCheckBox1.Name = "airCheckBox1";
-            this.airCheckBox1.NoRounding = false;
-            this.airCheckBox1.Size = new System.Drawing.Size(92, 17);
-            this.airCheckBox1.TabIndex = 0;
-            this.airCheckBox1.Text = "airCheckBox1";
-            this.airCheckBox1.Transparent = false;
             // 
             // nButton3
             // 
             this.nButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.nButton3.ForeColor = System.Drawing.Color.White;
             this.nButton3.IsShadow = false;
-            this.nButton3.Location = new System.Drawing.Point(172, 76);
+            this.nButton3.Location = new System.Drawing.Point(348, 108);
             this.nButton3.Name = "nButton3";
             this.nButton3.NormaColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
             this.nButton3.Size = new System.Drawing.Size(80, 30);
@@ -859,17 +761,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1023, 497);
+            this.ClientSize = new System.Drawing.Size(588, 535);
             this.Controls.Add(this.foreverTabPage1);
-            this.Controls.Add(this.airTabPage1);
-            this.Controls.Add(this.hopeCheckBox2);
-            this.Controls.Add(this.hopeCheckBox1);
-            this.Controls.Add(this.hopeRadioButton2);
-            this.Controls.Add(this.hopeRadioButton1);
-            this.Controls.Add(this.hopeToggle1);
-            this.Controls.Add(this.hopeSwitch1);
-            this.Controls.Add(this.hopeTrackBar1);
-            this.Controls.Add(this.hopeRoundProgressBar1);
             this.Controls.Add(this.moonCheckbox2);
             this.Controls.Add(this.moonCheckbox1);
             this.Controls.Add(this.moonRadiobutton2);
@@ -901,12 +794,10 @@
             this.MaximizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form12";
-            this.airTabPage1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
+            this.Text = "Demo";
             this.foreverTabPage1.ResumeLayout(false);
             this.tabPage7.ResumeLayout(false);
+            this.tabPage7.PerformLayout();
             this.tabPage8.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -948,16 +839,9 @@
         private Controls.HopeSwitch hopeSwitch1;
         private Controls.HopeTrackBar hopeTrackBar1;
         private Controls.HopeRoundProgressBar hopeRoundProgressBar1;
-        private Controls.AirTabPage airTabPage1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private Controls.AirButton airButton2;
-        private System.Windows.Forms.TabPage tabPage2;
-        private Controls.AirButton airButton3;
-        private System.Windows.Forms.TabPage tabPage3;
         private Controls.ForeverTabPage foreverTabPage1;
         private System.Windows.Forms.TabPage tabPage7;
         private System.Windows.Forms.TabPage tabPage8;
-        private Controls.AirCheckBox airCheckBox1;
         private NButton nButton3;
     }
 }
