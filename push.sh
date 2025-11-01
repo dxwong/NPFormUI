@@ -3,38 +3,29 @@
 echo "🚀 开始强制推送到公共仓库..."
 echo "时间戳: $(date)"
 
-# 检查 .gitignore 是否存在
-if [ ! -f ".gitignore" ]; then
-    echo "❌ 错误: 未找到 .gitignore 文件"
-    read -p "按回车键退出..."
-    exit 1
-fi
-
-# 确保脚本自身不在暂存区
-if git status --short | grep -q "push.sh"; then
-    echo "⏹️  从暂存区移除 push.sh..."
-    git reset push.sh
-fi
-
-# 使用 git add . (会自动遵循 .gitignore)
+# 使用 git add . 添加所有文件
 git add .
-echo "文件已添加（遵循 .gitignore 规则）"
+
+# 关键步骤：从本次提交中移除 push.sh（即使它已被跟踪）
+echo "🗑️  从本次提交中移除 push.sh..."
+git reset push.sh
+
+echo "✅ 文件已添加（已排除 push.sh）"
 
 # 显示将要提交的文件
 echo "📁 将要提交的文件："
 git status --short
 
-# 双重检查：确保 push.sh 没有被意外添加
+# 确认 push.sh 已被排除
 if git diff --cached --name-only | grep -q "push.sh"; then
-    echo "⚠️  检测到 push.sh 在暂存区，正在移除..."
+    echo "❌ 错误: push.sh 仍然在提交中，强制移除..."
     git reset push.sh
-    echo " 已移除 push.sh"
 fi
 
 # 提交
 commit_msg="r$(date +%m%d%H%M)"
 git commit -m "$commit_msg" --allow-empty
-echo "已提交: $commit_msg"
+echo "✅ 已提交: $commit_msg"
 
 # 强制推送到公共仓库
 echo "🌐 正在推送到公共仓库..."

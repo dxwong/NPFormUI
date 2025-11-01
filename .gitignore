@@ -3,9 +3,6 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
-# 脚本文件排除
-push.sh
-
 # User-specific files
 *.rsuser
 *.suo
