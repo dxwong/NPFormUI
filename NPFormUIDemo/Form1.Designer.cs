@@ -62,7 +62,7 @@
             this.foreverTabPage1.DeactiveFontColor = System.Drawing.Color.White;
             this.foreverTabPage1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.foreverTabPage1.ItemSize = new System.Drawing.Size(120, 40);
-            this.foreverTabPage1.Location = new System.Drawing.Point(820, 107);
+            this.foreverTabPage1.Location = new System.Drawing.Point(821, 85);
             this.foreverTabPage1.Name = "foreverTabPage1";
             this.foreverTabPage1.SelectedIndex = 0;
             this.foreverTabPage1.Size = new System.Drawing.Size(409, 243);
@@ -130,10 +130,10 @@
             this.hopeTabPage1.ForeColorB = System.Drawing.Color.Black;
             this.hopeTabPage1.ForeColorC = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.hopeTabPage1.ItemSize = new System.Drawing.Size(120, 40);
-            this.hopeTabPage1.Location = new System.Drawing.Point(912, 394);
+            this.hopeTabPage1.Location = new System.Drawing.Point(825, 334);
             this.hopeTabPage1.Name = "hopeTabPage1";
             this.hopeTabPage1.SelectedIndex = 0;
-            this.hopeTabPage1.Size = new System.Drawing.Size(342, 223);
+            this.hopeTabPage1.Size = new System.Drawing.Size(401, 223);
             this.hopeTabPage1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.hopeTabPage1.TabIndex = 3;
             this.hopeTabPage1.ThemeColorA = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(158)))), ((int)(((byte)(255)))));
@@ -144,7 +144,7 @@
             this.tabPage9.Location = new System.Drawing.Point(0, 40);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(342, 183);
+            this.tabPage9.Size = new System.Drawing.Size(401, 183);
             this.tabPage9.TabIndex = 0;
             this.tabPage9.Text = "tabPage9";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -174,7 +174,7 @@
             this.airTabPage1.Name = "airTabPage1";
             this.airTabPage1.SelectedIndex = 0;
             this.airTabPage1.ShowOuterBorders = false;
-            this.airTabPage1.Size = new System.Drawing.Size(764, 433);
+            this.airTabPage1.Size = new System.Drawing.Size(764, 476);
             this.airTabPage1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.airTabPage1.SquareColor = System.Drawing.Color.Maroon;
             this.airTabPage1.Squarewith = 6;
@@ -187,7 +187,7 @@
             this.tabPage1.Location = new System.Drawing.Point(119, 4);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(641, 425);
+            this.tabPage1.Size = new System.Drawing.Size(641, 468);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "系统";
             // 
