@@ -10,12 +10,16 @@ if [ ! -f ".gitignore" ]; then
     exit 1
 fi
 
-echo "📋 使用 .gitignore 规则排除文件..."
+# 如果 push.sh 之前已被提交，从 Git 中删除它（但保留本地文件）
+if git ls-files | grep -q "push.sh"; then
+    echo "🗑️  从 Git 记录中移除 push.sh..."
+    git rm --cached push.sh
+fi
 
-# 使用 git add . (遵循 .gitignore)
+echo "📋 使用 .gitignore 规则排除文件..."
 git add .
 
-# 额外排除 push.sh 文件（无论 .gitignore 中是否配置）
+# 额外确保 push.sh 不在暂存区
 if [ -f "push.sh" ]; then
     git reset push.sh
     echo "✅ 已额外排除 push.sh 文件"
@@ -26,12 +30,6 @@ echo "✅ 文件已添加（遵循 .gitignore 规则 + 排除 push.sh）"
 # 显示将要提交的文件
 echo "📁 将要提交的文件："
 git status --short
-
-# 检查是否排除了 push.sh
-if git status --short | grep -q "push.sh"; then
-    echo "⚠️  警告: push.sh 仍然在暂存区，手动排除..."
-    git reset push.sh
-fi
 
 # 提交
 commit_msg="r$(date +%m%d%H%M)"
