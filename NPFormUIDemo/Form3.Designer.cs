@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.nTabControl2 = new ReaLTaiizor.NTabControl();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
@@ -196,13 +197,13 @@
             this.jToobarItem3.Checked = false;
             this.jToobarItem3.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.jToobarItem3.ForeColor = System.Drawing.SystemColors.Control;
-            this.jToobarItem3.IconImage = global::ReaLTaiizor_CR.Properties.Resources.microsoft_excel_70px;
+            this.jToobarItem3.IconImage = ((System.Drawing.Image)(resources.GetObject("jToobarItem3.IconImage")));
             this.jToobarItem3.Location = new System.Drawing.Point(222, 6);
             this.jToobarItem3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.jToobarItem3.Name = "jToobarItem3";
             this.jToobarItem3.Size = new System.Drawing.Size(90, 100);
             this.jToobarItem3.TabIndex = 6;
-            this.jToobarItem3.Title = "文件";
+            this.jToobarItem3.Title = "邮件";
             this.jToobarItem3.Click += new System.EventHandler(this.jToobarItem3_Click);
             // 
             // jToobarItem2
@@ -211,7 +212,7 @@
             this.jToobarItem2.Checked = false;
             this.jToobarItem2.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.jToobarItem2.ForeColor = System.Drawing.SystemColors.Control;
-            this.jToobarItem2.IconImage = global::ReaLTaiizor_CR.Properties.Resources.line_70px;
+            this.jToobarItem2.IconImage = ((System.Drawing.Image)(resources.GetObject("jToobarItem2.IconImage")));
             this.jToobarItem2.Location = new System.Drawing.Point(117, 6);
             this.jToobarItem2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.jToobarItem2.Name = "jToobarItem2";
@@ -226,7 +227,7 @@
             this.jToobarItem1.Checked = false;
             this.jToobarItem1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.jToobarItem1.ForeColor = System.Drawing.SystemColors.Control;
-            this.jToobarItem1.IconImage = global::ReaLTaiizor_CR.Properties.Resources.home_70px;
+            this.jToobarItem1.IconImage = ((System.Drawing.Image)(resources.GetObject("jToobarItem1.IconImage")));
             this.jToobarItem1.Location = new System.Drawing.Point(21, 6);
             this.jToobarItem1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.jToobarItem1.Name = "jToobarItem1";

@@ -117,11 +117,29 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="App" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\App.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="calendar_70px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ioc\calendar_70px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAAABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAA
+        AAD///8Awbaa/8K1kP/GuZT/x7yZ/83Gsf/PxrL/z8a0/8/GtP/PxrL/zcax/8e8mf/GuZT/wrWQ/8G2
+        mv////8AvLCQ/93Rq//p3bf/8+/d//Xx4f/28uT/9vPn//f06P/39Oj/9vPn//by5P/18eH/8+/d/+nd
+        t//d0av/vLCQ/8a5lf/q37v/9fDf//by5f/39Oj/+fbs//n37v/6+O//+vjv//n37v/59uz/9/To//by
+        5f/18N//6t+7/8a5lf/Lvpz/9fDh//fz5//59uz/+fjv//r68v/7+vP/+/r0//v69P/7+vP/+vry//n4
+        7//59uz/9/Pn//Xw4f/Lvpz/z8Wn//f05/8Acrf/AAAA/9yYRP8Acrf/AAAA/9yYRP/c+vT/AEWV/wAA
+        AP8AAAD/mUUA//v61v/39Of/z8Wn/9nUw//59+7/mdz0/0YARP/73JX/mdz0/0YARP/73JX/RpjW/3IA
+        AP/7+rf/vPr0/wAAb//7u2//+ffu/9nUw//d18n/+vny/5nc9P9GAET/+9yV/5nc9P9GAET/+9yV//39
+        +v/+/fv//v38/5nc9P8AAET/3JhE//r58v/d18n/39nM//v69P+Z3PT/RgBE//vclf+Z3PT/RgBE//vc
+        lf/+/fv/RpjW/wAAAP8AAAD/cgAA//v6t//7+vT/39nM/9/ZzP/7+vT/mdz0/0YARP/73JX/mdz0/0YA
+        RP/73JX/mdz0/wAARP/cmET//v79//79/P/9/Pn/+/r0/9/ZzP/d18n/+vny/5nc9P9GAET/+9yV/5nc
+        9P9GAET/+9yV/5nc9P9GAET/+9yV/3K79P9GAAD/+9yV//r58v/d18n/2dTD//n37v8Acrf/AAAA/9yY
+        RP8Acrf/AAAA/5prMP/9/Pn/AHK3/wAAAP8AAAD/3JhE//v69P/59+7/2dTD/8/Fp//39Of/+ffu//r5
+        8v/7+/X//Pv2//z79v/8+/b//Pv2//z79v/8+/b/+/v1//r58v/59+7/9/Tn/8/Fp//Lvpz/9fDh//fz
+        5//59uz/+fjv//r68v/7+vP/+/r0//v69P/7+vP/+vry//n47//59uz/9/Pn//Xw4f/Lvpz/xrmV/+rf
+        u//18N//9vLl//f06P/59uz/+ffu//r47//6+O//+ffu//n27P/39Oj/9vLl//Xw3//q37v/xrmV/7yw
+        kP/d0av/6d23//Pv3f/18eH/9vLk//bz5//39Oj/9/To//bz5//28uT/9fHh//Pv3f/p3bf/3dGr/7yw
+        kP////8Awbaa/8K1kP/GuZT/x7yZ/83Gsf/PxrL/z8a0/8/GtP/PxrL/zcax/8e8mf/GuZT/wrWQ/8G2
+        mv////8AgAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAgAEAAA==
+</value>
   </data>
 </root>
