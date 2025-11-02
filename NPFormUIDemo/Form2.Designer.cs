@@ -64,8 +64,8 @@
             this.hopeRoundProgressBar1 = new ReaLTaiizor.Controls.HopeRoundProgressBar();
             this.foreverTabPage1 = new ReaLTaiizor.Controls.ForeverTabPage();
             this.tabPage7 = new System.Windows.Forms.TabPage();
-            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.nButton3 = new ReaLTaiizor.NButton();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
             this.foreverTabPage1.SuspendLayout();
             this.tabPage7.SuspendLayout();
             this.tabPage8.SuspendLayout();
@@ -731,6 +731,18 @@
             this.tabPage7.TabIndex = 0;
             this.tabPage7.Text = "tabPage7";
             // 
+            // nButton3
+            // 
+            this.nButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.nButton3.ForeColor = System.Drawing.Color.White;
+            this.nButton3.IsShadow = false;
+            this.nButton3.Location = new System.Drawing.Point(348, 108);
+            this.nButton3.Name = "nButton3";
+            this.nButton3.NormaColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.nButton3.Size = new System.Drawing.Size(80, 30);
+            this.nButton3.TabIndex = 3;
+            this.nButton3.Text = "nButton3";
+            // 
             // tabPage8
             // 
             this.tabPage8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
@@ -744,18 +756,6 @@
             this.tabPage8.Size = new System.Drawing.Size(511, 212);
             this.tabPage8.TabIndex = 1;
             this.tabPage8.Text = "tabPage8";
-            // 
-            // nButton3
-            // 
-            this.nButton3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.nButton3.ForeColor = System.Drawing.Color.White;
-            this.nButton3.IsShadow = false;
-            this.nButton3.Location = new System.Drawing.Point(348, 108);
-            this.nButton3.Name = "nButton3";
-            this.nButton3.NormaColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.nButton3.Size = new System.Drawing.Size(80, 30);
-            this.nButton3.TabIndex = 3;
-            this.nButton3.Text = "nButton3";
             // 
             // Form2
             // 
