@@ -150,6 +150,9 @@
     <Content Include="ioc\line_40px.png" />
     <Content Include="ioc\microsoft_excel_40px.png" />
     <Content Include="Resources\App.ico" />
+    <Content Include="Resources\bit_favicon.ico" />
+    <Content Include="Resources\mipgw.alipay.com_favicon.ico" />
+    <Content Include="Resources\www.iis.net_favicon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
